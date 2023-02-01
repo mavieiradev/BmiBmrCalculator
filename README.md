@@ -22,7 +22,11 @@ The project consists of a hub of solutions ranging from calculations related to 
 
 
 
-![1](https://i.imgur.com/mKmVVLm.jpg)
+
+![1](https://i.imgur.com/RObkWVc.jpg)
+
 ![2](https://i.imgur.com/LNH5B7w.jpg)
+
 ![3](https://i.imgur.com/T4fwfIT.jpg)
+
 ![4](https://i.imgur.com/imfkqdx.png)
