@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Fitness Tracker</string>
+    <string name="label_imc">IMC</string>
+    <string name="label_tmc">TMC</string>
+    <string name="imc_desc">BMI is the acronym for Body Mass Index which is used to measure weight
+         of the individual in relation to his height and thus indicate whether he is within the ideal weight,
+         over or under the desired weight.\n\nFill in the weight and height fields to find out your BMI</string>
+    <string name="tmb_desc">BMR is the calculation to find out the amount of calories your body needs based on your lifestyle.</string>
+    <string name="weight">Weight (Kg)</string>
+    <string name="height">Height (cm)</string>
+    <string name="calc">Calculate</string>
+    <string name="fields_messages">All fields must be greater than zero</string>
+
+    <string name="imc_severely_low_weight">Severely underweight</string>
+    <string name="imc_very_low_weight">Very underweight</string>
+    <string name="imc_low_weight">Underweight</string>
+    <string name="normal">Normal</string>
+    <string name="imc_high_weight">Overweight</string>
+    <string name="imc_so_high_weight">Moderately obese</string>
+    <string name="imc_severely_high_weight">Severely obese</string>
+    <string name="imc_extreme_weight">Extremely obese</string>
+
+    <string name="imc_response">Your BMI is: %1$.2f</string>
+    <string name="tmb_response">Your TMB is: %1$.2f</string>
+    <string name="list_response">result: %1$.2f, date: %2$s</string>
+    <string name="save">Save</string>
+    <string name="saved">Record saved successfully</string>
+    <string name="search">search</string>
+    <string name="age">Age</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

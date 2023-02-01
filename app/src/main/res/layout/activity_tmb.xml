@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    >
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".ImcActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="100dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            >
+
+            <ImageView
+                android:id="@+id/ic_back"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="16dp"
+                android:paddingTop="28dp"
+                android:backgroundTint="@android:color/white"
+                android:src="@drawable/ic_back" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="19dp"
+                android:paddingEnd="10dp"
+                android:layout_weight="1"
+                android:src="@drawable/header"
+                android:layout_margin="16dp"
+                app:tint="@color/head" />
+
+            <ImageButton
+                android:id="@+id/search_image_button"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="40dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_menu"
+                android:backgroundTint="@android:color/transparent"
+                android:layout_margin="16dp" />
+
+
+        </LinearLayout>
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="40dp"
+            android:text="@string/tmb_desc"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/edit_tmb_weight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="40dp"
+            android:textColor="#FFFFFF"
+            android:hint="@string/weight"
+            android:inputType="number"
+            android:maxLength="3"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/edit_tmb_height"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="40dp"
+            android:hint="@string/height"
+            android:inputType="number"
+            android:maxLength="3"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/edit_tmb_age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="40dp"
+            android:hint="@string/age"
+            android:inputType="number"
+            android:maxLength="3"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/AutoTextViewForm"
+            android:layout_width="match_parent"
+            android:backgroundTint="@color/button"
+            app:boxBackgroundColor="@color/button"
+            android:layout_height="wrap_content">
+
+            <AutoCompleteTextView
+                android:id="@+id/auto_lifestyle"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="@color/button"
+                android:textColorHint="@color/button"
+                app:boxBackgroundColor="@color/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/btn_tmb_send"
+            android:layout_width="wrap_content"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="@color/button"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/calc" />
+
+
+    </LinearLayout>
+
+</ScrollView>
