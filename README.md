@@ -23,10 +23,11 @@ The project consists of a hub of solutions ranging from calculations related to 
 
 
 
-![1](https://i.imgur.com/RObkWVc.jpg)
 
-![2](https://i.imgur.com/LNH5B7w.jpg)
+![1](https://www.linkpicture.com/q/inicio-removebg-preview.png)
 
-![3](https://i.imgur.com/T4fwfIT.jpg)
+![2](https://www.linkpicture.com/q/Screenshot_20230201_141316-removebg-preview.png)
 
-![4](https://i.imgur.com/imfkqdx.png)
+![3](https://www.linkpicture.com/q/Screenshot_20230201_141408-removebg-preview.png)
+
+![4](https://www.linkpicture.com/q/Screenshot_20230201_141156-removebg-preview.png)
